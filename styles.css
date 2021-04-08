@@ -1,0 +1,42 @@
+  body {
+    background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2019/galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+    
+  main{
+    background-color: white;
+    width: 75%;
+    text-align: center;
+    margin: 40px auto;
+    padding: 1%;
+  }
+    
+  nav {
+    background-color: black;
+    color: white;
+    border: 3px white double;
+    padding: 15px 0;
+  }
+    
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+    
+  ul, ol {
+    list-style-position: inside;
+  }
+    
+  .nav-link {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
